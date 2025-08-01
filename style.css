@@ -658,6 +658,7 @@ footer p {
   }
 
   .hero-content h1 {
+    max-width: auto;
     font-size: 1.8rem;
     margin-bottom: 1rem;
     white-space: normal;
@@ -689,8 +690,8 @@ footer p {
   }
 
   .icon {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #7263c1;
   border-radius: 50%;
   display: flex;
@@ -704,7 +705,7 @@ footer p {
 .icon:hover {
   transform: scale(1.1);
   background-color: #7263c1;
-  color: #121212; /* dark background when hovered */
+  color: #121212; 
 }
 
   .download-btn {
@@ -764,7 +765,7 @@ footer p {
 
 .about-image {
   max-width: 100px;
-  width: 30px;  /* Smaller than 50% */
+  width: 30px;  
   margin: auto 0;
   display: none;
 }
@@ -772,7 +773,7 @@ footer p {
 .classes {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px 8px; /* Reduced from 8px 12px */
+    gap: 6px 8px; 
     color: #7263c1;
 }
 
@@ -780,9 +781,9 @@ footer p {
     background: black;
     color: #7263c1;
     border: 2px solid #7263c1;
-    padding: 6px 10px; /* Reduced from 8px 14px */
-    border-radius: 15px; /* Reduced from 20px */
-    font-size: 13px; /* Reduced from 15px */
+    padding: 6px 10px; 
+    border-radius: 15px; 
+    font-size: 13px; 
     font-weight: 500;
     transition: all 0.3s ease-in-out;
 }
