@@ -443,6 +443,14 @@ p {
   border-radius: 4px;
   background-color: #fff;
   padding: 2px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  cursor: pointer; 
+}
+
+.tech-images img:hover {
+  transform: scale(1.2); 
+  box-shadow: 0 4px 12px rgba(114, 99, 193, 0.3); 
+  z-index: 10; 
 }
 
 .project-item a {
@@ -453,11 +461,12 @@ p {
   font-weight: 500;
   transition: color 0.2s ease, opacity 0.3s ease;
   opacity: 0;
+  cursor: pointer;
 }
 
 .project-item:hover a {
   opacity: 1;
-  color: #0ea5e9;
+  color: #0ea5e9 !important;
 }
 
 
